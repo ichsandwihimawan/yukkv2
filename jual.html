@@ -1,0 +1,605 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="vendor/assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="vendor/assets/css/bootstrap-icons.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="vendor/assets/css/head.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="vendor/assets/css/style.css" />
+
+    <!-- AOS CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+
+    <title>Alat Berat</title>
+  </head>
+  <body>
+    
+    <!-- Navbar -->
+   <div class="container">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container">
+          <a class="navbar-brand" href="index.html">
+            <img
+              src="vendor/assets/img/logo.jpg"
+              style="width: 50px"
+              alt="Logo"
+            />
+          </a>
+          <button
+            class="navbar-toggler collapsed"
+            type="button"
+            data-toggle="collapse"
+            data-target="#main-nav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="main-nav">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="kategori.html">Kategori</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="destinations.html">Beli</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="jual.html">Jual</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="aboutus.html">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contactus.html">Contact Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact-us.html">Login/Daftar</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+     <!-- Jumbotron -->
+      <div class="jumbotron text-center text-white" style="background-color:#f89f3c;">
+        <div class="container">
+           <h1 class="font-weight-bold">AlatBerat Jual</h1>
+           <p>Temukan semua kategori alatberat</p>
+        </div>
+      </div>
+
+      <div class="container">
+        <form>
+            <div class="row">
+                <div class="col-md-3">
+                        <div class="form-group">
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Search... ">
+                        </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="form-group">
+                        <select class="form-control" id="exampleFormControlSelect1">
+                        <option>Kategori</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="form-group">
+                        <select class="form-control" id="exampleFormControlSelect1">
+                        <option>Sub Kategori</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <button class="btn btn-light text-white" type="submit" style="background-color:#f89f3c;">Mencari</button>
+                </div>
+            </div>    
+        <form>
+      </div>
+
+      <!-- Isi -->
+      <div class="container">
+          <div class="row mt-3 ">
+            <div class="col-md-4">
+                  <h5 class="font-weight-bold">Filter</h5>
+            </div>
+            <div class="col-md-4">
+                <h5>Menampilan hasil dari <strong>"ABC"</strong></h5>
+            </div>
+          </div>
+        <div class="row mt-3">
+            <div class="col-md-3">
+                <div class="form-group">
+                    <p>Temukan</p>
+                    <input type="email" class="form-control mt-n2" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Search...">
+                    <div class="form-group mt-3">
+                        <p>Kategori</p>
+                        <select class="form-control mt-n2" id="exampleFormControlSelect1">
+                        <option>Kategori</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                        </select>
+                    </div>
+                    <div class="form-group mt-3">
+                        <p>Sub Kategori</p>
+                        <select class="form-control mt-n2" id="exampleFormControlSelect1">
+                        <option>Sub Kategori</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                        </select>
+                    </div>
+                    <div class="form-group mt-3">
+                        <p>Tempat</p>
+                        <select class="form-control mt-n2" id="exampleFormControlSelect1">
+                        <option>Semua Lokasi</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                        </select>
+                    </div>
+                    <div class="form-group mt-3">
+                        <p>Merek</p>
+                        <select class="form-control mt-n2" id="exampleFormControlSelect1">
+                        <option>Pilih Merek</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                        </select>
+                    </div>
+                    <p>Harga (Rupiah)</p>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <select class="form-control mt-n2" id="exampleFormControlSelect1">
+                                <option>Min</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>4</option>
+                                <option>5</option>
+                                </select>
+                        </div>
+                        <div class="col-md-6">
+                            <select class="form-control mt-n2" id="exampleFormControlSelect1">
+                                <option>Max</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>4</option>
+                                <option>5</option>
+                                </select>
+                        </div>
+                    </div>
+                    <p class="mt-2">Tahun</p>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <select class="form-control mt-n2" id="exampleFormControlSelect1">
+                                <option>Semua tahun</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>4</option>
+                                <option>5</option>
+                                </select>
+                        </div>
+                        <div class="col-md-6">
+                            <select class="form-control mt-n2" id="exampleFormControlSelect1">
+                                <option>Semua tahun</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>4</option>
+                                <option>5</option>
+                                </select>
+                        </div>
+                    </div>
+                    <p class="mt-2">Odometer</p>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <select class="form-control mt-n2" id="exampleFormControlSelect1">
+                                <option>Semua Odometer</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>4</option>
+                                <option>5</option>
+                                </select>
+                        </div>
+                        <div class="col-md-6">
+                            <select class="form-control mt-n2" id="exampleFormControlSelect1">
+                                <option>Semua Odometer</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>4</option>
+                                <option>5</option>
+                                </select>
+                        </div>
+                    </div>
+                    <p class="mt-2">Hour Meter</p>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <select class="form-control mt-n2" id="exampleFormControlSelect1">
+                                <option>Semua Hourmeter</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>4</option>
+                                <option>5</option>
+                                </select>
+                        </div>
+                        <div class="col-md-6">
+                            <select class="form-control mt-n2" id="exampleFormControlSelect1">
+                                <option>Semua Hourmeter</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>4</option>
+                                <option>5</option>
+                                </select>
+                        </div>
+                    </div>
+                    <button class="btn btn-light text-white mt-4" type="submit" style="background-color:#f89f3c;">Mencari</button>
+                  </div>
+            </div>
+            <!-- Isi semua -->
+            <div class="col-md-9">
+                <div data-aos="zoom-in">
+                <div class="row mt-3">
+                    <div class="col-lg-3 col-md-6 col-12">
+                        <!-- Card -->
+                        <div class="card  mb-4 card-hover">
+                          <a href="pages/course-single.html" class="card-img-top"><img src="/vendor/assets/img/angular.jpg" alt="" class="card-img-top rounded-top"></a>
+                          <!-- Card Body -->
+                          <div class="card-body">
+                            <h4 class="mb-3 text-truncate-line-2 "><a href="pages/course-single.html" class="text-inherit">Angular -
+                                the complete guide for beginner</a></h4>
+                            <!-- List -->
+                            <h5 class="font-weight-bold">Rp5.000.000</h5>
+                            <div class="lh-1">
+                              <span class="font-size-xs text-muted">Bandung</span>
+                            </div>
+                          </div>
+                          <!-- Card Footer -->
+                          <div class="card-footer">
+                            <div class="row align-items-center no-gutters">
+                              <div class="col-auto">
+                              </div>
+                              <div class="col ml-2">
+                                <img src="/vendor/assets/img/1.jpg" class="rounded-circle avatar-xs" alt="" >
+
+                                <span>Juanita Bell</span>
+                              </div>
+                              <div class="col-auto">
+                                <a href="#!" class="text-muted" data-toggle="tooltip" data-placement="top" title="" data-original-title="Add to Bookmarks">
+                                  <i class="fe fe-bookmark  "></i>
+                                </a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-lg-3 col-md-6 col-12">
+                        <!-- Card -->
+                        <div class="card  mb-4 card-hover">
+                          <a href="pages/course-single.html" class="card-img-top"><img src="/vendor/assets/img/angular.jpg" alt="" class="card-img-top rounded-top"></a>
+                          <!-- Card Body -->
+                          <div class="card-body">
+                            <h4 class="mb-3 text-truncate-line-2 "><a href="pages/course-single.html" class="text-inherit">Angular -
+                                the complete guide for beginner</a></h4>
+                            <!-- List -->
+                            <h5 class="font-weight-bold">Rp5.000.000</h5>
+                            <div class="lh-1">
+                              <span class="font-size-xs text-muted">Bandung</span>
+                            </div>
+                          </div>
+                          <!-- Card Footer -->
+                          <div class="card-footer">
+                            <div class="row align-items-center no-gutters">
+                              <div class="col-auto">
+                              </div>
+                              <div class="col ml-2">
+                                <img src="/vendor/assets/img/1.jpg" class="rounded-circle avatar-xs" alt="" >
+
+                                <span>Juanita Bell</span>
+                              </div>
+                              <div class="col-auto">
+                                <a href="#!" class="text-muted" data-toggle="tooltip" data-placement="top" title="" data-original-title="Add to Bookmarks">
+                                  <i class="fe fe-bookmark  "></i>
+                                </a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-lg-3 col-md-6 col-12">
+                        <!-- Card -->
+                        <div class="card  mb-4 card-hover">
+                          <a href="pages/course-single.html" class="card-img-top"><img src="/vendor/assets/img/angular.jpg" alt="" class="card-img-top rounded-top"></a>
+                          <!-- Card Body -->
+                          <div class="card-body">
+                            <h4 class="mb-3 text-truncate-line-2 "><a href="pages/course-single.html" class="text-inherit">Angular -
+                                the complete guide for beginner</a></h4>
+                            <!-- List -->
+                            <h5 class="font-weight-bold">Rp5.000.000</h5>
+                            <div class="lh-1">
+                              <span class="font-size-xs text-muted">Bandung</span>
+                            </div>
+                          </div>
+                          <!-- Card Footer -->
+                          <div class="card-footer">
+                            <div class="row align-items-center no-gutters">
+                              <div class="col-auto">
+                              </div>
+                              <div class="col ml-2">
+                                <img src="/vendor/assets/img/1.jpg" class="rounded-circle avatar-xs" alt="" >
+
+                                <span>Juanita Bell</span>
+                              </div>
+                              <div class="col-auto">
+                                <a href="#!" class="text-muted" data-toggle="tooltip" data-placement="top" title="" data-original-title="Add to Bookmarks">
+                                  <i class="fe fe-bookmark  "></i>
+                                </a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-lg-3 col-md-6 col-12">
+                        <!-- Card -->
+                        <div class="card  mb-4 card-hover">
+                          <a href="pages/course-single.html" class="card-img-top"><img src="/vendor/assets/img/angular.jpg" alt="" class="card-img-top rounded-top"></a>
+                          <!-- Card Body -->
+                          <div class="card-body">
+                            <h4 class="mb-3 text-truncate-line-2 "><a href="pages/course-single.html" class="text-inherit">Angular -
+                                the complete guide for beginner</a></h4>
+                            <!-- List -->
+                            <h5 class="font-weight-bold">Rp5.000.000</h5>
+                            <div class="lh-1">
+                              <span class="font-size-xs text-muted">Bandung</span>
+                            </div>
+                          </div>
+                          <!-- Card Footer -->
+                          <div class="card-footer">
+                            <div class="row align-items-center no-gutters">
+                              <div class="col-auto">
+                              </div>
+                              <div class="col ml-2">
+                                <img src="/vendor/assets/img/1.jpg" class="rounded-circle avatar-xs" alt="" >
+
+                                <span>Juanita Bell</span>
+                              </div>
+                              <div class="col-auto">
+                                <a href="#!" class="text-muted" data-toggle="tooltip" data-placement="top" title="" data-original-title="Add to Bookmarks">
+                                  <i class="fe fe-bookmark  "></i>
+                                </a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-lg-3 col-md-6 col-12">
+                        <!-- Card -->
+                        <div class="card  mb-4 card-hover">
+                          <a href="pages/course-single.html" class="card-img-top"><img src="/vendor/assets/img/angular.jpg" alt="" class="card-img-top rounded-top"></a>
+                          <!-- Card Body -->
+                          <div class="card-body">
+                            <h4 class="mb-3 text-truncate-line-2 "><a href="pages/course-single.html" class="text-inherit">Angular -
+                                the complete guide for beginner</a></h4>
+                            <!-- List -->
+                            <h5 class="font-weight-bold">Rp5.000.000</h5>
+                            <div class="lh-1">
+                              <span class="font-size-xs text-muted">Bandung</span>
+                            </div>
+                          </div>
+                          <!-- Card Footer -->
+                          <div class="card-footer">
+                            <div class="row align-items-center no-gutters">
+                              <div class="col-auto">
+                              </div>
+                              <div class="col ml-2">
+                                <img src="/vendor/assets/img/1.jpg" class="rounded-circle avatar-xs" alt="" >
+
+                                <span>Juanita Bell</span>
+                              </div>
+                              <div class="col-auto">
+                                <a href="#!" class="text-muted" data-toggle="tooltip" data-placement="top" title="" data-original-title="Add to Bookmarks">
+                                  <i class="fe fe-bookmark  "></i>
+                                </a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-lg-3 col-md-6 col-12">
+                        <!-- Card -->
+                        <div class="card  mb-4 card-hover">
+                          <a href="pages/course-single.html" class="card-img-top"><img src="/vendor/assets/img/grap.jpg" alt="" class="card-img-top rounded-top"></a>
+                          <!-- Card Body -->
+                          <div class="card-body">
+                            <h4 class="mb-3 text-truncate-line-2 "><a href="pages/course-single.html" class="text-inherit">Angular -
+                                the complete guide for beginner</a></h4>
+                            <!-- List -->
+                            <h5 class="font-weight-bold">Rp5.000.000</h5>
+                            <div class="lh-1">
+                              <span class="font-size-xs text-muted">Bandung</span>
+                            </div>
+                          </div>
+                          <!-- Card Footer -->
+                          <div class="card-footer">
+                            <div class="row align-items-center no-gutters">
+                              <div class="col-auto">
+                              </div>
+                              <div class="col ml-2">
+                                <img src="/vendor/assets/img/1.jpg" class="rounded-circle avatar-xs" alt="" >
+
+                                <span>Juanita Bell</span>
+                              </div>
+                              <div class="col-auto">
+                                <a href="#!" class="text-muted" data-toggle="tooltip" data-placement="top" title="" data-original-title="Add to Bookmarks">
+                                  <i class="fe fe-bookmark  "></i>
+                                </a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    <div class="col-lg-3 col-md-6 col-12">
+                      <!-- Card -->
+                      <div class="card  mb-4 card-hover">
+                        <a href="pages/course-single.html" class="card-img-top"><img src="/vendor/assets/img/react.jpg" alt="" class="card-img-top rounded-top"></a>
+                        <!-- Card Body -->
+                        <div class="card-body">
+                          <h4 class="mb-3 text-truncate-line-2 "><a href="pages/course-single.html" class="text-inherit">Angular -
+                              the complete guide for beginner</a></h4>
+                          <!-- List -->
+                          <h5 class="font-weight-bold">Rp5.000.000</h5>
+                          <div class="lh-1">
+                            <span class="font-size-xs text-muted">Bandung</span>
+                          </div>
+                        </div>
+                        <!-- Card Footer -->
+                        <div class="card-footer">
+                          <div class="row align-items-center no-gutters">
+                            <div class="col-auto">
+                            </div>
+                            <div class="col ml-2">
+                              <img src="/vendor/assets/img/1.jpg" class="rounded-circle avatar-xs" alt="" >
+
+                              <span>Juanita Bell</span>
+                            </div>
+                            <div class="col-auto">
+                              <a href="#!" class="text-muted" data-toggle="tooltip" data-placement="top" title="" data-original-title="Add to Bookmarks">
+                                <i class="fe fe-bookmark  "></i>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-12">
+                        <!-- Card -->
+                        <div class="card  mb-4 card-hover">
+                          <a href="pages/course-single.html" class="card-img-top"><img src="/vendor/assets/img/python.jpg" alt="" class="card-img-top rounded-top"></a>
+                          <!-- Card Body -->
+                          <div class="card-body">
+                            <h4 class="mb-3 text-truncate-line-2 "><a href="pages/course-single.html" class="text-inherit">Angular -
+                                the complete guide for beginner</a></h4>
+                            <!-- List -->
+                            <h5 class="font-weight-bold">Rp5.000.000</h5>
+                            <div class="lh-1">
+                              <span class="font-size-xs text-muted">Bandung</span>
+                            </div>
+                          </div>
+                          <!-- Card Footer -->
+                          <div class="card-footer">
+                            <div class="row align-items-center no-gutters">
+                              <div class="col-auto">
+                              </div>
+                              <div class="col ml-2">
+                                <img src="/vendor/assets/img/1.jpg" class="rounded-circle avatar-xs" alt="" >
+
+                                <span>Juanita Bell</span>
+                              </div>
+                              <div class="col-auto">
+                                <a href="#!" class="text-muted" data-toggle="tooltip" data-placement="top" title="" data-original-title="Add to Bookmarks">
+                                  <i class="fe fe-bookmark  "></i>
+                                </a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                  </div>
+            </div>
+            </div>
+            </div>
+        </div>
+      </div>
+      
+
+    <!-- About -->
+    <div class="jumbotron jumbotron-fluid mt-5 mb-0" style="background-color:#f9f8fe;">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4">
+              <img src="vendor/assets/img/logo.png" class="img-thumbnail" alt="..." width="80">
+              <p class="mt-3 font-weight-bold">PT. Arti Sentral Global</p>
+              <p class="mt-3">Office 8 Building Level 18 A
+                Jl. Jend Sudirman Kav 52 - 53 Sudirman Central District (SCBD) Jakarta Selatan - Indonesia 12190</p>
+                <p class="mt-3">Phone : +62 21 30490014</p>
+            </div>
+            <div class="col-md-4 mt-2">
+              <p class="font-weight-bold">Suka Artikel Kami</p>
+              <p class="mt-3">Dapatkan Info terbaru dari AlatBerat.com langsung di email anda. masukkan email anda di bawah ini</p>    
+              <!-- Form -->
+              <form>
+                <div class="form-group">
+                  <div class="row">
+                    <div class="col-sm-9">
+                      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email anda ...">
+                    </div>
+                    <div class="col-sm-6">
+                      <button type="button" class="btn btn-warning btn-sm mt-3 text-white" style="background-color:#f89f3c;">Berlangganan</button>
+                    </div>
+                  </div>
+                </div>
+              </form>
+            </div>
+            <div class="col-md-4">
+              <p class="font-weight-bold mt-2">Find Us :</p>
+              <ul class="list-unstyled">
+                <li>
+                  <a href="" class="_ads">Home</a>
+                </li>
+                <li class="mt-2">
+                  <a href="" class="_ads">Tentang Kami</a>
+                </li>
+                <li class="mt-2" >
+                  <a href="" class="_ads">Facebook</a>
+                </li>
+                <li class="mt-2">
+                  <a href="" class="_ads">Twitter</a>
+                </li>
+                <li class="mt-2">
+                  <a href="" class="_ads">Instagram</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+    </div>
+
+   
+
+        
+    <!--  Separate Popper and Bootstrap JS  -->
+    <script src="vendor/assets/js/jquery-3.5.1.slim.min.js" ></script>
+    <script src="vendor/assets/js/popper.min.js" ></script>
+    <script src="vendor/assets/js/bootstrap.min.js" ></script>
+    
+    <!-- AOS JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
