@@ -22,80 +22,61 @@
 
     <!-- AOS CSS -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="stylesheet" href="vendor/assets/css/style.css" />
 
     <title>Alat Berat</title>
   </head>
   <body>
     <!-- Navbar -->
     <div class="container">
-      <nav class="navbar navbar-expand-lg navbar-light">
-        <!-- Just an image -->
-        <nav class="navbar navbar-light bg-light">
-          <a class="navbar-brand" href="#">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container">
+          <a class="navbar-brand" href="index.html">
             <img
-              src="vendor/assets/img/logo.png"
-              width="50"
-              height="25"
-              alt=""
+              src="vendor/assets/img/logo.jpg"
+              style="width: 50px"
+              alt="Logo"
             />
           </a>
-        </nav>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul
-            class="navbar-nav mr-auto"
-            style="margin-right: 70px; text-transform: uppercase"
+          <button
+            class="navbar-toggler collapsed"
+            type="button"
+            data-toggle="collapse"
+            data-target="#main-nav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
           >
-            <li class="nav-item active">
-              <a class="nav-link" href="index.html">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="kategori.html">Kategori</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Berita</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="search.html">Search</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="aboutus.html">About US</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="contactus.html">Contact US</a>
-            </li>
-          </ul>
-          <ul class="navbar-nav">
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href="#"
-                id="navbarDropdown"
-                role="button"
-                data-toggle="dropdown"
-                aria-haspopup="true"
-                aria-expanded="false"
-              >
-                M. Iksan
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">Profile</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Logout</a>
-              </div>
-            </li>
-          </ul>
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="main-nav">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="kategori.html">Kategori</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="beli.html">Beli</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="jual.html">Jual</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="blog.html">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="aboutus.html">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contactus.html">Contact Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact-us.html">Login/Daftar</a>
+              </li>
+            </ul>
+          </div>
         </div>
       </nav>
     </div>

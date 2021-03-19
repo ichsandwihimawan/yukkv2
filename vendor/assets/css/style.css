@@ -170,15 +170,6 @@
 .container .navbar-nav {
 }
 
-.card {
-  width: 263px;
-  height: 320px;
-  display: inline-block;
-  margin-top: 10px;
-  margin-left: 50px !important;
-  margin-bottom: 20px;
-}
-
 .pagination {
   margin-left: 500px !important;
 }
@@ -226,4 +217,16 @@ footer .foot p {
   margin: 50px auto;
   background-color: #fff;
   border: 5px solid black;
+}
+
+.page-item .page-link:hover {
+  background-color: blue;
+  color: salmon;
+}
+
+.page-item .page-link {
+  color: crimson;
+}
+
+.page-link span {
 }
